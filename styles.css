@@ -1,0 +1,87 @@
+.hero{
+    display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f6f7f8;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.Chero1{
+    background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  padding-top: 33%;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+  align-items: baseline;
+  justify-content: center;
+}
+.titre{
+    text-align: center;
+    background-color: #cdd2d6;
+    border-radius: 5px;
+}
+.Chero2{
+    background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+  background-image:url(images/menu-item-1.png);
+  padding-top: 33%;
+}
+.btnn{
+  display: flex;
+  padding-top: 50%;
+  justify-content: center;
+}
+.font-face {
+  font-family : "chathurabold";
+  src : url(" ../font/chathura_bold_macroman/chachathura-bold-webfont.eot" );
+  font-weight : normal;
+  font-style : normal;
+}
+.hero-section {
+  background-image: url(images/menu-item-1.png); /* Remplacez par l'URL de votre image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Hauteur pleine */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white; /* Couleur du texte */
+  text-align: center;
+}
+
+/* Overlay sombre pour le contraste */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Overlay sombre */
+  z-index: 1;
+}
+
+/* Contenu de la section héros */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-btn {
+  margin-top: 20px;
+}
+.propos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
